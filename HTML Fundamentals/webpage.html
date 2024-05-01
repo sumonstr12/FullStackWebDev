@@ -26,17 +26,16 @@
     <meta name="twitter:player:height" content="1020">
 
     <!--Meta No Cache -->
-
+    <!-- Controling cache -->
     <meta http-equiv="Cache-control" content="no-cache"/>
     <meta http-equiv="Progma" content="0"/>
     <meta http-equiv="Expires" content="no-cache"/>
-
 
     <title>Document</title>
 </head>
 <body>
     <p>Text Formating</p><br>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, corporis dicta!
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, corporis dicta!<br>
     Id cumque molestiae ab sunt nobis. Blanditiis quaerat, quidem velit totam modi quasi
     consequatur doloremque! Quis praesentium quae aperiam!</p><br>
     <i>italic font</i><br>
@@ -47,16 +46,17 @@
     <code>code</code><br>
     <b>bold text</b><br>
 
-    <P>There is six heading tag:</P>
-    <h1>ABCD 123</h1>
-    <h2>ABCD 123</h2>
-    <h3>ABCD 123</h3>
-    <h4>ABCD 123</h4>
-    <h5>ABCD 123</h5>
-    <h6>ABCD 123</h6>
+    <p>There is six heading tag:</p>
+    <h1>ABCD (h1)</h1>
+    <h2>ABCD (h2)</h2>
+    <h3>ABCD (h3)</h3>
+    <h4>ABCD (h4)</h4>
+    <h5>ABCD (h5)</h5>
+    <h6>ABCD (h6)</h6>
+
 
     <p>Html Table:</p>
-
+    <!-- If we have to need border for table then use " <table border="1"> " this tag-->
     <table>
         <tr>
             <th>A</th>
@@ -76,9 +76,10 @@
             <td>C2</td>
         </tr>
     </table>
-    <P>We can do table beautification using css</P><br>
-    <p>Html oder and unoder list</p><br>
+    <p>We can do table beautification using css</p><br>
 
+
+    <p>Html order and unorder list</p><br>
     <ol>
         <li>Fardin</li>
         <li>Bulbul</li>
@@ -90,36 +91,44 @@
         <li>Remon</li>
     </ul>
 
+    <center>Happy Learning..(Using center tag)</center>
+
+    <p>Html Form</p>
     <form>
-        <lebel>User ID</lebel><br>
+        <label>User ID (input type "text")</label><br>
         <input type="text"><br><br>
         
-        <lebel>Password</lebel><br>
+        <label>Password (input type "password")</label><br>
         <input type="password"><br><br>
 
-        <lebel>Age</lebel><br>
+        <label>Age (input type "number")</label><br>
         <input type="number"><br><br>
 
-        <lebel>E-mail</lebel><br>
+        <label>E-mail (input type "email")</label><br>
         <input type="email"><br><br>
 
-        <lebel>Male</lebel><br>
+        <label>Address (input type "address")</label><br>
+        <input type="address"><br><br>
+
+        <h3>Input type radio-</h3>
+        <label>Male</label><br>
         <input type="radio"><br>
 
         <label>Female</label><br>
         <input type="radio"><br><br>
 
-        <lebel>SSC</lebel><br>
+        <p>Input type checkbox-</p>
+        <label>SSC</label><br>
         <input type="checkbox"><br>
 
-        <lebel>HSC</lebel><br>
+        <label>HSC</label><br>
         <input type="checkbox"><br>
 
-        <lebel>Bsc</lebel><br>
+        <label>Bsc</label><br>
         <input type="checkbox"><br><br>
 
-
-        <lebel>City</lebel><br>
+        <h3>select type-</h3><br>
+        <label>City</label><br>
         <select>
             <option>Choose City</option>
             <option>Dhaka</option>
@@ -147,9 +156,10 @@
     <mark>MD Fardin Jaman Aranyak</mark>
     <p>My Data of birth is <time datetime="2001-05-08">8th may 2001</time></p>
 
-    <lebel>Country</lebel><br>
+    <label>Country</label><br>
     <input type="text" list="country"><br>
     <datalist id="country">
+        <option>Country</option>
         <option>Bangladesh</option>
         <option>India</option>
         <option>Brazil</option>
